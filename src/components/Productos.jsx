@@ -8,8 +8,7 @@ export function Productos() {
         <div className="shape__big"></div>
 
         <h2 className="section__title">
-        Que deseas <br />
-        realizar?
+        Que deseas realizar?
         </h2>
 
         <div className="items__container container grid">
@@ -29,7 +28,7 @@ const Container = styled.div`
       padding-top: 2rem;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
-      gap: 4rem 1.5rem;
+      gap: 3rem 1.5rem;
     }
     &__card {
       position: relative;
@@ -39,15 +38,22 @@ const Container = styled.div`
       box-shadow: 0 4px 16px hsla(22, 10%, 2%, 0.3);
       text-align: center;
       margin-top: 4rem;
+      & .items__img {
+        transition: transform 0.3s ease;
+        transform: translateY(0.5rem);
+      }
       &:hover .items__img {
         transform: translateY(-0.5rem);
+      }
+      &:hover .items__button{
+        background-color: var(--first-color-alt);
       }
     }
     &__img {
       width: 80px;
       position: absolute;
       inset: 0;
-      top: -4rem;
+      top: -5rem;
       margin: 0 auto;
       transition: transform 0.3s;
     }

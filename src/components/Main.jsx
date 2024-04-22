@@ -10,18 +10,27 @@ export function Main() {
         <section className="home section" id="home">
           <div className="shape__small"></div>
           <div className="shape__big"></div>
-
           <div className="home__container container grid">
             <div className="home__data">
               <h1 className="home__title">
                 <span>Templo divino</span>
               </h1>
-            <h2>
-                <span>Amarres de amor <br/> y <br/> magia blanca</span>
-            </h2>
+              <h2>
+                <span>Amarres de amor <br /> y <br /> magia blanca</span>
+              </h2>
+
+              <p className="home__description">
+                ¡Bienvenido al Templo Divino! Donde la magia se encuentra con la realidad 
+                y donde los deseos se cumplen. Nos gustaría ayudarte a cumplir tus anhelos 
+                más profundos, esos deseos que piensas que nunca se podrán realizar. 
+                Tu momento ha llegado. Si deseas nuestra ayuda o saber más acerca de 
+                nosotros, te invito a que agendes una cita con uno de nuestros maestros. 
+                Ellos te mostrarán tu camino e iluminarán tu mente.
+              </p>
+
               <p className="home__description">Agenda tu cita</p>
 
-              <a href="#" className="button">
+              <a href="https://api.whatsapp.com/send?phone=573243888917&text=Quiero%2C%20hablar%2C%20con%2C%20un%2C%20maestro" className="button">
                 Agendar
               </a>
             </div>
@@ -30,6 +39,8 @@ export function Main() {
         </section>
 
         <Categorias />
+
+        <br />
 
         <About />
 
@@ -84,6 +95,7 @@ const Container = styled.div`
     &__description {
       margin-top: 4rem;
       font-size: 1.25rem;
+      text-align: center;
       margin-bottom: 1.5rem;
     }
     &__img {

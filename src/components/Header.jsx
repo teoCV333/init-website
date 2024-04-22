@@ -159,9 +159,9 @@ const Container = styled.div`
       cursor: pointer;
     }
     &__img {
-      width: 180px;
+      width: 200px;
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: -3rem;
     }
   }

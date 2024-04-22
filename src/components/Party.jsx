@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import img1 from "../assets/img/pngwing.com (57).png"
-import img2 from "../assets/img/pngwing.com (50).png"
+import wiccaImg from "../assets/img/wicca.png"
+//import ritualParaEnamorarImg from "../assets/img/ritualparaenamorar.png";
+
 export function Party() {
   return (<Container>
   <section className="party section" id="party">
@@ -15,28 +16,28 @@ export function Party() {
                 Deja tu mensaje para agendar una cita con uno de nuestros maestros 
               </p>
 
-              <a href="#" className="button">
+              <a href="https://api.whatsapp.com/send?phone=573243888917&text=Quiero%2C%20hablar%2C%20con%2C%20un%2C%20maestro" className="button">
                 Agendar
               </a>
             </div>
 
             <div className="party__images">
               <img
-                src={img1}
+                src={wiccaImg}
                 alt="party image"
                 className="party__img"
               />
 
-              <img
-                src={img2}
+              {/* <img
+                src={ritualParaEnamorarImg}
                 alt="party image"
                 className="party__star-1"
               />
               <img
-                src={img2}
+                src={ritualParaEnamorarImg}
                 alt="party image"
                 className="party__star-2"
-              />
+              /> */}
             </div>
           </div>
         </section>
@@ -62,9 +63,10 @@ const Container =styled.div`
     &__images{
         position: relative;
         justify-self: center;
+        border-radius: 2rem;
     }
     &__img{
-        width: 250px;
+        width: 325px;
     }
     &__star-1,
     &__star-2{

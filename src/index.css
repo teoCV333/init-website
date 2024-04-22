@@ -8,7 +8,7 @@
 
   /*========== Colors ==========*/
   --first-color: hsl(0, 0%, 77%);
-  --first-color-alt: hsl(287, 48%, 49%);
+  --first-color-alt: hsl(280, 2%, 26%);
   --white-color: #fff;
   --text-color: hsl(22, 4%, 75%);
   --text-color-light: hsl(22, 4%, 55%);
@@ -23,7 +23,7 @@
   --biggest-font-size: 2.8rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
+  --h3-font-size: .9rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;

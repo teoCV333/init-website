@@ -25,7 +25,7 @@ export function Categorias() {
 const Container = styled.div`
   .category {
     position: relative;
-
+    margin-bottom: 0rem;
     &__container {
       padding-top: 4rem;
       grid-template-columns: 228px;
@@ -39,11 +39,11 @@ const Container = styled.div`
       padding: 4.5rem 2.25rem 2rem;
       box-shadow: 0 4px 16px hsla(22, 10%, 2%, 0.3);
       text-align: center;
-      transition: background 0.3s;
-      margin-bottom: 6rem;
+      transition: background 0.2s;
+      margin-top: 2rem;
 
       &:hover .category__img {
-        transform: translateY(-0.5rem);
+        transform: translateY(-0.2rem);
       }
     }
     &__img {

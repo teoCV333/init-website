@@ -28,6 +28,23 @@ export function Footer() {
 
           <div className="footer__content">
             <div>
+              <h3 className="footer__title">Servicios</h3>
+
+              <ul className="footer__links">
+                <li>
+                  <a href="#" className="footer__link">
+                  Descuentos
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer__link">
+                  Precios
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
               <h3 className="footer__title">Sobre nosotros</h3>
 
               <ul className="footer__links">
@@ -45,17 +62,17 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="footer__title">Servicios</h3>
+              <h3 className="footer__title">Redes</h3>
 
               <ul className="footer__links">
                 <li>
                   <a href="#" className="footer__link">
-                  Precios
+                  Instagram
                   </a>
                 </li>
                 <li>
                   <a href="#" className="footer__link">
-                  Descuentos
+                  Facebook
                   </a>
                 </li>
               </ul>
@@ -108,15 +125,16 @@ const Container = styled.div`
     overflow: hidden;
 
     &__container {
-      row-gap: 4rem;
+      text-align: center;
+      row-gap: 2rem;
     }
     &__logo {
       display: inline-flex;
       align-items: center;
-      column-gap: 0.5rem;
+      column-gap: 0.3rem;
       color: var(--first-color);
       font-weight: var(--font-medium);
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.2rem;
       transition: color 0.3s;
 
       & img {
@@ -134,13 +152,15 @@ const Container = styled.div`
       display: grid;
     }
     &__content {
-      grid-template-columns: repeat(2, max-content);
-      gap: 2.5rem 4.5rem;
+      grid-template-columns: repeat(3, max-content);
+      justify-content: center;
+      padding: 0.2rem;
+      gap: 2.5rem 2rem;
     }
     &__title {
       font-size: var(--h3-font-size);
       font-weight: var(--font-semi-bold);
-      margin-bottom: 1.5rem;
+      margin-bottom: .5rem;
     }
     &__links {
       row-gap: 0.75rem;
