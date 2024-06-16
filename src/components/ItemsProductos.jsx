@@ -2,7 +2,8 @@
 export function ItemsProductos({item}) {
     return (
       <article className="items__card">
-        <img
+        <a className="redirectBtn" href={`https://api.whatsapp.com/send?phone=${item.telefono}&text=${item.texto}`}>
+          <img
           src={item.img}
           alt="items image"
           className="items__img"
@@ -14,6 +15,8 @@ export function ItemsProductos({item}) {
         <button className="items__button">
           <i className="ri-heart-3-line"></i>
         </button>
+        </a>
+        
       </article>
     );
   }

@@ -41,7 +41,7 @@ const Container = styled.div`
       text-align: center;
       transition: background 0.2s;
       margin-top: 2rem;
-
+      margin-bottom: 3.3rem;
       &:hover .category__img {
         transform: translateY(-0.2rem);
       }
@@ -74,6 +74,10 @@ const Container = styled.div`
     & .shape__small {
       top: 25rem;
       left: -4rem;
+    }
+    & .redirectBtn {
+      text-decoration: none;
+      color: white;z
     }
   }
 `;

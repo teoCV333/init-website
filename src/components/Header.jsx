@@ -27,7 +27,7 @@ export function Header() {
         <nav className="nav container">
           <a href="#" className="nav__logo">
             <img src={img1} alt="logo image" />
-            Templo divino
+            Santuario divino
           </a>
 
           <div
@@ -47,12 +47,12 @@ export function Header() {
               </li>
               <li className="nav__item">
                 <a href="#items" className="nav__link">
-                  Servicios
+                  rituales
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#party" className="nav__link">
-                  Maestros
+                  Eruditos
                 </a>
               </li>
             </ul>

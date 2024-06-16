@@ -13,25 +13,30 @@ export function Main() {
           <div className="home__container container grid">
             <div className="home__data">
               <h1 className="home__title">
-                <span>Templo divino</span>
+                <span>Santuario divino</span>
               </h1>
               <h2>
-                <span>Amarres de amor <br /> y <br /> magia blanca</span>
+                <span>
+                  Amarres de amor 
+                </span>
               </h2>
 
               <p className="home__description">
-                ¡Bienvenido al Templo Divino! Donde la magia se encuentra con la realidad 
+                ¡Bienvenido al Santuario Divino! Donde la magia se encuentra con la realidad 
                 y donde los deseos se cumplen. Nos gustaría ayudarte a cumplir tus anhelos 
                 más profundos, esos deseos que piensas que nunca se podrán realizar. 
                 Tu momento ha llegado. Si deseas nuestra ayuda o saber más acerca de 
-                nosotros, te invito a que agendes una cita con uno de nuestros maestros. 
+                nosotros, te invito a que agendes una cita con uno de nuestros eruditos. 
                 Ellos te mostrarán tu camino e iluminarán tu mente.
               </p>
 
-              <p className="home__description">Agenda tu cita</p>
+              <p className="home__description">
+                Sí quieres saber más acerca de nosotros <br/>
+                no dudes en escribirnos!
+              </p>
 
-              <a href="https://api.whatsapp.com/send?phone=573243888917&text=Quiero%2C%20hablar%2C%20con%2C%20un%2C%20maestro" className="button">
-                Agendar
+              <a className="button">
+                Quiero saber más
               </a>
             </div>
 
@@ -127,7 +132,7 @@ const Container = styled.div`
     }
     @keyframes flotar {
       0% {
-        transform: translate(0, 0px);
+        tra nsform: translate(0, 0px);
       }
       50% {
         transform: translate(0, 15px);

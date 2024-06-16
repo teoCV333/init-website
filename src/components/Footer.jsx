@@ -16,11 +16,11 @@ export function Footer() {
           <div>
             <a href="#" className="footer__logo">
               <img src={img1} alt="logo image" />
-              Templo divino
+              Santuario divino
             </a>
 
             <p className="footer__description">
-              El poder de la magia
+              El poder de la magia y la sabiduría
               <br />
               a tu alcance.
             </p>
@@ -28,7 +28,7 @@ export function Footer() {
 
           <div className="footer__content">
             <div>
-              <h3 className="footer__title">Servicios</h3>
+              <h3 className="footer__title">rituales</h3>
 
               <ul className="footer__links">
                 <li>
@@ -50,7 +50,7 @@ export function Footer() {
               <ul className="footer__links">
                 <li>
                   <a href="#" className="footer__link">
-                  Maestros
+                  Eruditos
                   </a>
                 </li>
                 <li>
@@ -114,7 +114,7 @@ export function Footer() {
 {/*           <img src={img3} alt="footer image" className="footer__tree-2" /> */}
         </div>
 
-        <span className="footer__copy">&#169; Templo divino</span>
+        <span className="footer__copy">&#169; Santuario divino</span>
       </footer>
     </Container>
   );

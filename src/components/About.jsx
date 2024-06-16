@@ -1,5 +1,4 @@
 import styled from "styled-components";
-//import img1 from "../assets/img/pngwing.com (58).png"
 export function About() {
   return (<Container>
    <section className="about section" id="about">
@@ -9,7 +8,7 @@ export function About() {
           <div className="about__container container grid">
             <div className="about__data">
               <h2 className="section__title">
-                Acerca de El templo divino
+                Acerca de El Santuario Divino
               </h2>
 
               <p className="about__description">

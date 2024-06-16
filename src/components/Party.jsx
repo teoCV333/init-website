@@ -13,10 +13,10 @@ export function Party() {
               </h2>
 
               <p className="party__description">
-                Deja tu mensaje para agendar una cita con uno de nuestros maestros 
+                Deja tu mensaje para agendar una cita con uno de nuestros eruditos 
               </p>
 
-              <a href="https://api.whatsapp.com/send?phone=573243888917&text=Quiero%2C%20hablar%2C%20con%2C%20un%2C%20maestro" className="button">
+              <a href="https://api.whatsapp.com/send?phone=573243888917&text=Quiero%2C%20hablar%2C%20con%2C%20un%2C%20eruditos" className="button">
                 Agendar
               </a>
             </div>
@@ -52,6 +52,7 @@ const Container =styled.div`
 
         & .section__title{
             margin-bottom: 1rem;
+            text-align: center;
         }
     }
     &__data{

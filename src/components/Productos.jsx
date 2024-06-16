@@ -38,6 +38,7 @@ const Container = styled.div`
       box-shadow: 0 4px 16px hsla(22, 10%, 2%, 0.3);
       text-align: center;
       margin-top: 4rem;
+      margin-bottom: 1rem;
       & .items__img {
         transition: transform 0.3s ease;
         transform: translateY(0.5rem);
@@ -89,6 +90,10 @@ const Container = styled.div`
     & .shape__big {
       bottom: -8rem;
       right: -8rem;
+    }
+    & .redirectBtn {
+      text-decoration: none;
+      color: white;
     }
   }
 `;
